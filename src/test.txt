@@ -1,0 +1,1 @@
+﻿GET http://localhost:5178/WeatherForecast/Get?query_params=are_allowed_as_well

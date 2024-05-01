@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MiniTestLoad": {
+      "commandName": "Project",
+      "commandLineArgs": "-t 3 -n 100 -a auth.txt test.txt testpost.txt"
+    }
+  }
+}

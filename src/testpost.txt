@@ -1,0 +1,20 @@
+﻿# Comments are allowed
+// in both styles
+
+# Empty lines are ignored prior to the first request line
+
+POST http://localhost:5178/WeatherForecast/Post
+//X-Header: Commented out
+#X-Header: Commented out
+X-Header: Additional header
+// Header names are case-insensitive.
+x-header: Second value, Third value
+// Content-Type is set automatically to below value. Can be altered if needed.
+// Content-Type: application/json; charset=utf-8
+// Blank line designate request body start.
+// After it all lines considered to be a request body, including commented and blank lines
+
+{
+  "id": 123,
+  "name": "MiniTestLoad"
+}
